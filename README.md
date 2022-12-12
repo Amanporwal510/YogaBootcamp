@@ -1,4 +1,33 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+## Tech Stack
+-  React js, Next js Framework, Postgresql, deployed on `Vercel`.
+-  React component are imported from `Material-UI`.
+-  Cloud `Postgresql` database is deployed on `ElephantSQL`.
+-  `Primsa` is used for connection btw `Cloud server` and `Nextjs`.
+
+## Assumption
+-  As mentioned in the Assignment, we have to create only form.
+-  There is completePayment function, which accept payment details and does payment to us
+   - That's why after submitting form, a message Appears saying
+      -  `Payment has been completed, now you are enrolled to Yoga classes`
+   -  Fot the time being, every time user submit form, payment fets successfully completed.
+-  There is no need to include entities like Instructor, etc.
+-  There is no need to have special functionailty in form for changing of batch as user registers on    montly basis, User can select any bactch, while enrolling.
+
+
+## Features
+-  Validation of form.
+      Age limit between 18-65.
+      Pattern for Email is set as something@gmail.com.
+-  Payment Complete and submission shows in snackbar.
+-  All files are properly structured, which makes code scalable.
+-  Comments are  written for Code readability.
+- [Deployed Application URL](https://yoga-bootcamp.vercel.app/form)
+
+## ER Diagram
+![ER Diagram for Yoga Classes](../../../Downloads/ER%20Diagram%20for%20Yoga%20classes.jpeg)
+
+## SQL Tables
+![SQL Tables](../../../Downloads/SQL%20Tables.jpeg)
 
 ## Getting Started
 
@@ -11,24 +40,3 @@ yarn dev
 ```
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
-
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
-
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.

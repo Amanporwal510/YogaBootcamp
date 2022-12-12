@@ -15,5 +15,5 @@ export default async (req, res) => {
       data: contactData
    })
 
-   res.json(savedContact)
+   res.status(200).json(savedContact)
 }
