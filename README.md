@@ -17,17 +17,17 @@
 ## Features
 -  Validation of form.
       Age limit between 18-65.
-      Pattern for Email is set as something@gmail.com.
+ Pattern for Email is set as something@gmail.com.
 -  Payment Complete and submission shows in snackbar.
 -  All files are properly structured, which makes code scalable.
 -  Comments are  written for Code readability.
 - [Deployed Application URL](https://yoga-bootcamp.vercel.app/form)
 
 ## ER Diagram
-![ER Diagram for Yoga Classes](../../../Downloads/ER%20Diagram%20for%20Yoga%20classes.jpeg)
+![ER Diagram for Yoga classes](https://user-images.githubusercontent.com/56669314/207396904-4515bbf4-94ea-4d4a-bc1e-2f14b5ecb322.jpeg)
 
 ## SQL Tables
-![SQL Tables](../../../Downloads/SQL%20Tables.jpeg)
+![SQL Tables](https://user-images.githubusercontent.com/56669314/207396743-52bfa611-3258-4b77-ac13-eb254a1a9eef.jpeg)
 
 ## Getting Started
 
